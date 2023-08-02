@@ -4,8 +4,19 @@
   "description": "minimal calendar backend application using Node.js and MongoDB for syncing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Vijay",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^123.0.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1",
+    "node-cron": "^3.0.2"
+  }
 }
